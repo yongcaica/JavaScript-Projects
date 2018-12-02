@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>001</title>
+</head>
+<body>
+    <script>
+        var str = prompt("please input a number");
+        if(str == "") {
+            console.log("you input wrong content");
+        } else {
+            if(!isNaN(parseInt(str))) {
+                // console.log("you input a number");
+                var flag = isPrimeNumber(str);
+                console.log(flag);
+            } else {
+                console.log("you input is not a number");
+            }
+        }
+
+        function isPrimeNumber(num) {
+            for (var i = 2; i < num / 2; i++) {
+                if (num % i == 0) {
+                    return false;
+                }
+            }
+            return true;
+        }
+    </script>
+</body>
+</html>
