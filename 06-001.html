@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>day 6</title>
+</head>
+<body>
+<script>
+ var str = "Tuesday night suggesting that Michael Flynn has given the government and it recommends that Flynn serve no time";
+ var str1 = str.toLocaleLowerCase();
+ var str2 = str1.replace(/\s+/g,"");
+ console.log(str2);
+ var obj = {};
+ for(var i = 0; i < str2.length; i++) {
+     var key = str2[i];
+     if(obj[key]) {
+         obj[key]++;
+     } else {
+         obj[key] = 1;
+     }
+ };
+ for(var key in obj) {
+     console.log("the number of " + key + " is " + obj[key]);
+ };
+
+</script>
+</body>
+</html>
