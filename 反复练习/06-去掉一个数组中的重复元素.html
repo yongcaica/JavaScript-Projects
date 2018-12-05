@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function clear(arr) {       //定义一个函数，参数是一个数组
+        var obj = {};        //定义一个空对象，用来放键值（key和value）
+        for(var i = 0; i < arr.length; i++) {
+            var key = arr[i];     //key是对象的键，就是arr数组中的每个element
+            if(obj[key]) {        //obj[key]是对象的值，在这里是每个键的出现的次数，这个语句的意思是判断key是否存在
+                obj[key]++;       //如果key在对象中已经存在，则值加1
+            } else {
+                obj[key] = 1;      //如果key不存在，那么，设置其值为1
+            }
+        }
+        var newArr = [];        //定义一个空数组，用来放置新的数组，也就是不含重复元素的数组
+        for (key in obj) {       //遍历对象
+            if(obj[key] == 1) {
+                newArr.push(key);     //如果值为1，说明这个element（key）存在，且只有一个，那么就把它放到新的数组中去
+            } else {
+                //如果值不为1，也就是重复出现的元素，并且newArr中还没有加入这个key的话，那也把它放进新的数组中去。如果newArr中已有，则不再执行push了
+                if(newArr.indexOf(key) == -1) {
+                    newArr.push(key);
+                }
+            }
+        }
+    return newArr;
+    }
+
+    //函数的调用
+    var arr = ["a", "b", "c", "a", "d", "b", "e", "c"];     //要进行处理的数组
+    console.log(clear(arr));
+
+</script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var indices = [];
+    var arr = ["a", "b", "d", "a", "a"];
+    var element = "a";
+    var idx = arr.indexOf(element);    //idx的初始值是0
+    while(idx != -1) {       //判断，当idx ！=0，也就是数组中存在要找的element "a"时，开始循环
+        indices.push(idx);        //把idx=0先加到indices中去
+        idx = arr.indexOf(element, idx+1);      //然后，从1这个位置继续寻找element "a"，如果找到了，那么idx就不等于-1，继续循环，直到idx=-1时跳出循环
+    }
+    console.log(indices);
+</script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function MyArray() {                     //定义了一个自定义对象
+        this.mySort = function (arr) {       //定义了一个实例对象的方法
+            for (var i = 0; i < arr.length - 1; i++) {        //调用了冒泡排序
+                for (var j = 0; j < arr.length - 1 - i; j++) {
+                    if (arr[j] > arr[j + 1]) {
+                        var temp = arr[j];
+                        arr[j] = arr[j + 1];
+                        arr[j + 1] = temp;
+                    }
+                }
+            }
+        }
+    }
+
+    //调用：
+    var arr = [10, 33, 89, 34, 222];
+    var myArray = new MyArray();          //创建一个实例对象
+    myArray.mySort(arr);                  //实例对象调用方法
+    console.log(arr);
+</script>
+</body>
+</html>
