@@ -2,9 +2,23 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>String</title>
 </head>
 <body>
-
+<script>
+    var str = "tuesdaynightsuggestingthatmichaelflynnhasgiventhegovernmentanditrecommendsthatflynnservenotime";
+    var obj = {};
+    for(var i = 0; i<str.length; i++) {
+        var key = str[i];
+        if(obj[key]) {
+            obj[key]++;
+        } else {
+            obj[key]=1;
+        }
+    };
+    for(var key in obj) {
+        console.log("The number of " + key + " is " + obj[key]);
+    }
+</script>
 </body>
 </html>
