@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>practice</title>
+</head>
+<body>
+    <script>
+        // arr = "lkajdfjoiadgjoifdgjoifdgjoifdgjofidgjofjgofjig";
+        // arr1 = "The quick brown fox jumped over the lazy dog.";
+        // console.log(arr.length);
+        // console.log(arr.charAt(3));
+        // console.log(arr.charAt(88));
+        // console.log(arr1.charAt(3));
+        // console.log(arr1.charAt(4));
+        // console.log(String.fromCharCode(44,56,33));    //it's a static method of String, always use it as String.fromCharCode()
+        // console.log(arr.concat(",", arr1));
+        arr2 = ["yong", "muye", "huiping", "ganbo", "rose", "mary", "kate"];
+        // var newArr2 = arr2.join("|");
+        // console.log(newArr2);
+        // var newArr3 = arr2.reverse();
+        // console.log(newArr3);
+
+        for(var i = 0; i<arr2.length/2; i++) {
+            var temp = arr2[i];
+            arr2[i] = arr2[arr2.length-i-1];
+            arr2[arr2.length-i-1] = temp;
+        }
+        console.log(arr2);
+
+    </script>
+
+</body>
+</html>
