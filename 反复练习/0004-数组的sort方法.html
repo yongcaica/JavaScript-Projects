@@ -17,14 +17,15 @@
                     }
                 }
             }
+            //return arr;     此处不需要return，因为数组是一个对象，内容在堆中存储，只有一份，直接被改掉了。
         }
     }
 
     //调用：
-    var arr = [10, 33, 89, 34, 222];
+    var arr1 = [10, 33, 89, 34, 222];
     var myArray = new MyArray();          //创建一个实例对象
-    myArray.mySort(arr);                  //实例对象调用方法
-    console.log(arr);
+    myArray.mySort(arr1);                  //实例对象调用方法
+    console.log(arr1);
 </script>
 </body>
 </html>

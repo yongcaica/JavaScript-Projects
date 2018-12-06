@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="button" value="点菜" id="btn"/>
+<select name=" " id="ss">
+    <option value="1">宫保鸡丁</option>
+    <!--<option value="2" selected="selected">红烧鲫鱼</option>-->
+    <option value="2" id="op1">红烧鲫鱼</option>
+    <option value="3">西红柿鸡蛋汤</option>
+</select>
+<script src="反复练习/common.js"></script>
+<script>
+    my$("btn").onclick= function() {
+        my$("op1").selected = true;
+    }
+</script>
+</body>
+</html>

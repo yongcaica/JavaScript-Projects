@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>按钮的排他功能</title>
+</head>
+<body>
+<input type="button" value="Click Me" />
+<input type="button" value="Click Me" />
+<input type="button" value="Click Me" />
+<input type="button" value="Click Me" />
+<input type="button" value="Click Me" />
+<input type="button" value="Click Me" />
+<input type="button" value="Click Me" />
+<input type="button" value="Click Me" />
+<script>
+    var btnObjs = document.getElementsByTagName("input");
+    for(var i=0;i<btnObjs.length;i++) {     //循环遍历所有的按钮
+        btnObjs[i].onclick = function () {      //为每个按钮注册事件，但此时并不执行function中的代码，直到用户click某个按钮以后才执行
+            for(var j=0;j<btnObjs.length;j++) {      //把所有按钮的值设置为click me
+                btnObjs[j].value = "Click Me";
+            }
+            this.value = "I AM CLICKED!";     //把被点的按钮的值设置为i am clicked，此时i的值已经变为了btnObjs.length了，所以不能用btnObjs[i]
+        }
+    }
+</script>
+</body>
+</html>

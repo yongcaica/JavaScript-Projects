@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="button" value="CLICK ME" />
+<input type="button" value="CLICK ME" />
+<input type="button" value="CLICK ME" />
+<input type="button" value="CLICK ME" />
+<input type="button" value="CLICK ME" />
+<input type="button" value="CLICK ME" />
+<input type="button" value="CLICK ME" />
+<script>
+    var btnOjbs = document.getElementsByTagName("input");
+    for(var i=0;i<btnOjbs.length;i++) {
+        btnOjbs[i].onclick = function() {
+            for(var j=0;j<btnOjbs.length;j++) {
+                btnOjbs[j].value = "CLICK ME";
+            }
+            this.value = "I AM CLICKED";
+        }
+    }
+</script>
+
+</body>
+</html>
