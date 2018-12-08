@@ -2,18 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45ca14f3-f938-493d-a4ce-c194e94cfdb0" name="Default Changelist" comment="update">
-      <change afterPath="$PROJECT_DIR$/21-001.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21-003.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/73783737.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9938338.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/反复练习/0005 清空数组.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/反复练习/0007-点击显示和隐藏div.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/反复练习/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/022-004.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/022-005.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/022-006.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/022-007.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/022-008.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/反复练习/0008 阻止超链接默认跳转.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/反复练习/0009-点击小图显示大图.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/反复练习/06-去掉一个数组中的重复元素.html" beforeDir="false" afterPath="$PROJECT_DIR$/反复练习/0002-去掉一个数组中的重复元素.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/反复练习/06-找到数组中每个a出现的位置.html" beforeDir="false" afterPath="$PROJECT_DIR$/反复练习/0001-找到数组中每个a出现的位置.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/反复练习/21-001冒泡排序.html" beforeDir="false" afterPath="$PROJECT_DIR$/反复练习/0003-冒泡排序.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/反复练习/21-002数组的sort方法.html" beforeDir="false" afterPath="$PROJECT_DIR$/反复练习/0004-数组的sort方法.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/反复练习/0007-点击显示和隐藏div.html" beforeDir="false" afterPath="$PROJECT_DIR$/反复练习/0007-点击显示和隐藏div.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,19 +25,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/反复练习/0007-点击显示和隐藏div.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="648">
-              <caret line="24" column="44" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/反复练习/common.js">
+        <entry file="file://$PROJECT_DIR$/022-008.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="189">
-              <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+              <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -87,6 +76,13 @@
         <option value="$PROJECT_DIR$/9938338.html" />
         <option value="$PROJECT_DIR$/0007-点击显示和隐藏div.html" />
         <option value="$PROJECT_DIR$/反复练习/0007-点击显示和隐藏div.html" />
+        <option value="$PROJECT_DIR$/022-004.html" />
+        <option value="$PROJECT_DIR$/022-005.html" />
+        <option value="$PROJECT_DIR$/反复练习/0008 阻止超链接默认跳转.html" />
+        <option value="$PROJECT_DIR$/022-006.html" />
+        <option value="$PROJECT_DIR$/反复练习/0009-点击小图显示大图.html" />
+        <option value="$PROJECT_DIR$/022-007.html" />
+        <option value="$PROJECT_DIR$/022-008.html" />
       </list>
     </option>
   </component>
@@ -126,10 +122,13 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/README.md" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\caiyo\Dropbox\workspace\projects\JavaScript" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\caiyo\Dropbox\workspace\projects\JavaScript\反复练习" />
       <recent name="C:\Users\caiyo\Dropbox\workspace\projects\JavaScript" />
@@ -171,18 +170,21 @@
       <workItem from="1544019703721" duration="10627000" />
       <workItem from="1544047424786" duration="3666000" />
       <workItem from="1544108755381" duration="3850000" />
-      <workItem from="1544127662794" duration="5381000" />
+      <workItem from="1544127662794" duration="6241000" />
+      <workItem from="1544196047474" duration="241000" />
+      <workItem from="1544196377961" duration="8986000" />
+      <workItem from="1544241063477" duration="1270000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38718000" />
+    <option name="totallyTimeSpent" value="50075000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23498419" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23498419" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="0" weight="0.32936078" />
@@ -299,17 +301,69 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/反复练习/common.js">
+    <entry file="file://$PROJECT_DIR$/反复练习/0007-点击显示和隐藏div.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        <state relative-caret-position="405">
+          <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/反复练习/0007-点击显示和隐藏div.html">
+    <entry file="file://$PROJECT_DIR$/反复练习/common.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="24" column="44" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
+        <state relative-caret-position="189">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/022-004.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/反复练习/0008 阻止超链接默认跳转.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/022-005.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="44" lean-forward="true" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/022-006.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/022-007.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/反复练习/0009-点击小图显示大图.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/022-008.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
         </state>
       </provider>
     </entry>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--超链接默认带有跳转属性，不需要onclick操作-->
+<!--显示的是图片，实际上点击的是超链接，所以后续要在id="ak"上做点击操作-->
+<a href="images\big.jpg" id="ak"><img src="images\small.jpg" alt=""></a>
+<img src="" alt="" id="big">
+<script>
+    document.getElementById("ak").onclick = function() {
+        document.getElementById("big").src = document.getElementById("ak").href;
+        return false;
+    }
+</script>
+</body>
+</html>
