@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45ca14f3-f938-493d-a4ce-c194e94cfdb0" name="Default Changelist" comment="update">
-      <change afterPath="$PROJECT_DIR$/022-004.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/022-005.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/022-006.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/022-007.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/022-008.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/反复练习/0008 阻止超链接默认跳转.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/反复练习/0009-点击小图显示大图.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/反复练习/0007-点击显示和隐藏div.html" beforeDir="false" afterPath="$PROJECT_DIR$/反复练习/0007-点击显示和隐藏div.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/022-008.html" beforeDir="false" afterPath="$PROJECT_DIR$/022-008.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,8 +18,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/022-008.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+            <state relative-caret-position="324">
+              <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -173,16 +164,15 @@
       <workItem from="1544127662794" duration="6241000" />
       <workItem from="1544196047474" duration="241000" />
       <workItem from="1544196377961" duration="8986000" />
-      <workItem from="1544241063477" duration="1270000" />
+      <workItem from="1544241063477" duration="1990000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50075000" />
+    <option name="totallyTimeSpent" value="50795000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23498419" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -362,8 +352,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/022-008.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+        <state relative-caret-position="324">
+          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
         </state>
       </provider>
     </entry>
