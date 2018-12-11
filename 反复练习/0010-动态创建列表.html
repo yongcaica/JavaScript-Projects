@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        /*ul {*/
+            /*list-style-type: none;*/
+            /*cursor: pointer;*/
+        /*}*/
+        div {
+            width: 200px;
+            height: 300px;
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+<input type="button" value="CLICK ME" id="btn">
+<div id="dv"></div>
+<script>
+    var names = ["yong", "muye", "huiping"];
+    document.getElementById("btn").onclick = function () {
+        var str = "<ul  style='list-style-type: none; cursor: pointer'>";
+        for (var i = 0; i < names.length; i++) {
+            str += "<li>" + names[i] + "</li>";
+        }
+        str += "</ul>";
+        document.getElementById("dv").innerHTML = str
+
+        var list = document.getElementById("dv").getElementsByTagName("li");
+        for (var i = 0; i < list.length; i++) {
+            list[i].onmouseover = function () {
+                this.style.backgroundColor = "yellow";
+            };
+            list[i].onmouseout = function () {
+                this.style.backgroundColor = "";
+            };
+        }
+    }
+</script>
+</body>
+</html>
