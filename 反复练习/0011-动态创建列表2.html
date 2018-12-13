@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div{
+            width: 200px;
+            height: 300px;
+            background-color: deepskyblue;
+        }
+    </style>
+</head>
+<body>
+<input type="button" value="CLICK ME" id="btn">
+<div id="dv"></div>
+<script>
+    var names = ["yong", "muye", "huiping"];
+    document.getElementById("btn").onclick = function() {
+        var ulObj = document.createElement("ul");
+        document.getElementById("dv").appendChild(ulObj);
+        for(var i =0;i<names.length;i++) {
+            var liObj = document.createElement("li");
+            liObj.innerHTML = names[i];
+            ulObj.appendChild(liObj);
+            liObj.onmouseover = mouseoverHandle;
+            liObj.onmouseout = mouseoutHandle;
+        }
+    }
+    function mouseoverHandle() {
+        this.style.backgroundColor = "red";
+    }
+    function mouseoutHandle() {
+        this.style.backgroundColor = "";
+    }
+    /*
+    如果是循环的方式添加事件，推荐用命名函数；
+    如果不是循环的方式添加事件，推荐用匿名函数；
+     */
+</script>
+</body>
+</html>

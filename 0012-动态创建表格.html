@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    div{
+        width: 200px;
+        height: 300px;
+        background-color: #b467dc;
+    }
+    table {
+        border-collapse: collapse;
+    }
+</style>
+<body>
+<input type="button" value="CLICK ME" id="btn">
+<div id="dv"></div>
+<script>
+    var arr = [
+        {name: "BAIDU", href: "www.baidu.com"},
+        {name: "NETFLIX",href: "www.netflix.com"},
+        {name: "ZTE", href: "www.zte.com.cn"}
+    ];
+    document.getElementById("btn").onclick = function() {
+        var tbObj = document.createElement("table");
+        tbObj.border = "1";
+        document.getElementById("dv").appendChild(tbObj);
+        for(var i=0;i<arr.length;i++) {
+            var trObj = document.createElement("tr");
+            tbObj.appendChild(trObj);
+
+            var dt1 = document.createElement("td");    //first column
+            dt1.innerText = arr[i].name;
+            trObj.appendChild(dt1);
+
+            var dt2 = document.createElement("td");    //second column
+            dt2.innerHTML = "<a href="+arr[i].href+">" + arr[i].name + "</a>";
+            trObj.appendChild(dt2);
+        }
+    }
+</script>
+</body>
+</html>

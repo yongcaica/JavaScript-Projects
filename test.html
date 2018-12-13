@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    div {
+        width: 200px;
+        height: 300px;
+        background-color: green;
+    }
+</style>
+<body>
+    <input type="button" value ="CLICK ME" id="btn">
+    <div id="dv"></div>
+    <script>
+        var names = ["yong", "muye", "huiping"];
+        document.getElementById("btn").onclick = function() {
+            var ulObj = document.createElement("ul");      //创建ul
+            document.getElementById("dv").appendChild(ulObj);    //把ul立即加入到父级元素div中
+            for(var i =0;i<names.length;i++) {
+                var liObj = document.createElement("li");     //创建li
+                liObj.innerHTML = names[i];
+                ulObj.appendChild(liObj);    //把li加入到父级元素ul中
+                liObj.onmouseover = mouseoverHandle;
+                liObj.onmouseout = mouseoutHandle;
+            }
+        }
+        function mouseoverHandle() {
+            this.style.backgroundColor = "red";
+        }
+        function mouseoutHandle() {
+            this.style.backgroundColor = "";
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div{
+            width: 200px;
+            height: 300px;
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+<input id="btn">
+<div id="dv"></div>
+<script>
+    var inputObj = document.getElementById("btn");
+    inputObj.type = "button";
+    inputObj.value = "CLICK ME";
+    var i =0;
+    inputObj.onclick = function() {
+        i++;
+        var btnObj = document.createElement("input");
+        btnObj.type = "button";
+        btnObj.value = "BTN"+i;
+        document.getElementById("dv").appendChild(btnObj);
+    }
+</script>
+</body>
+</html>
