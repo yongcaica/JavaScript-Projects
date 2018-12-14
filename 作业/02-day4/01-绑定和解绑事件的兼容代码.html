@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        div {
+            width: 200px;
+            height: 300px;
+            background-color: antiquewhite;
+        }
+
+        li {
+            color: red;
+            background-color: grey;
+            cursor: pointer;
+            list-style-type: none;
+        }
+    </style>
+</head>
+<body>
+<input type="button" value="Hi" id="btn">
+<input type="button" value="DeleteFirstButtonEvent" id="btn1">
+<div id="dv"></div>
+<script>
+    //兼容代码
+    function addEventListener(element, type, fn){
+        if(element.addEventListener) {
+            element.addEventListener(type, fn, false);
+        } else if (element.attachEvent) {
+            element.attachEvent("on" + type, fn);
+        } else {
+            element["on" + type] = fn;
+        }
+    }
+
+    function removeEventListener(element, type, fnName) {
+        if(element.removeEventListener) {
+            element.removeEventListener(type, fn, false);
+        } else if (element.detachEvent) {
+            element.detachEvent("on" + type, fn);
+        } else {
+            element["on" + type] = null;
+        }
+    }
+
+    fn = function () {
+        var ulObj = document.createElement("ul");
+        document.getElementById("dv").appendChild(ulObj);
+        for (var i = 0; i < arr.length; i++) {
+            var liObj = document.createElement("li");
+            liObj.innerHTML = arr[i];
+            ulObj.appendChild(liObj);
+            liObj.onmouseover = mouseoverHandle;
+            liObj.onmouseout = mouseoutHandle;
+        }
+        ;
+    }
+
+    function mouseoverHandle() {
+        this.style.backgroundColor = "yellow";
+    };
+
+    function mouseoutHandle() {
+        this.style.backgroundColor = "";
+    };
+
+    var arr = ["yong", "muye", "huiping"];
+    addEventListener(document.getElementById("btn"), "click", fn);
+    document.getElementById("btn1").onclick = function () {
+        removeEventListener(document.getElementById("btn"), "click", fn)
+    }
+
+    /*动态创建列表，第二种绑定事件，解绑事件
+    var arr = ["yong", "muye", "huiping"];
+    function f1(){
+        var ulObj = document.createElement("ul");
+        document.getElementById("dv").appendChild(ulObj);
+        for (var i = 0; i < arr.length; i++) {
+            var liObj = document.createElement("li");
+            liObj.innerHTML = arr[i];
+            ulObj.appendChild(liObj);
+            liObj.onmouseover = mouseoverHandle;
+            liObj.onmouseout = mouseoutHandle;
+        };
+    };
+    document.getElementById("btn").addEventListener("click", f1,false);
+    document.getElementById("btn1").onclick = function() {
+        document.getElementById("btn").removeEventListener("click", f1, false);
+    }
+    function mouseoverHandle() {
+        this.style.backgroundColor = "yellow";
+    };
+    function mouseoutHandle() {
+        this.style.backgroundColor = "";
+    };
+    */
+    /* 第一种绑定方式
+    document.getElementById("btn").onclick = function() {
+        var pObj = document.createElement("p");
+        document.getElementById("dv").appendChild(pObj);
+        pObj.innerHTML = "This is a P";
+    }
+    document.getElementById("btn1").onclick = function() {
+        document.getElementById("btn").onclick = null;
+    }
+    */
+</script>
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #box {
+            width: 450px;
+            margin: 200px auto;
+        }
+
+        #txt {
+            width: 350px;
+        }
+
+        /*#pop {*/
+            /*width: 350px;*/
+            /*border: 1px solid red;*/
+        /*}*/
+
+        /*#pop ul {*/
+            /*margin: 10px;*/
+            /*padding: 0px;*/
+            /*width: 200px;*/
+            /*list-style-type: none;*/
+        /*}*/
+
+        /*#pop ul li {*/
+
+        /*}*/
+
+    </style>
+</head>
+<body>
+<div id="box">
+    <input type="text" id="txt" value="">
+    <input type="button" value="Search" id="btn">
+</div>
+<script>
+    var keywords = ["yong", "muye", "huiping", "yangxiao", "mutianya", "hello", "muoon", "young"];
+    document.getElementById("txt").onkeyup = function() {
+        var tempArr = [];
+        var text = this.value;     //文本框输入的内容
+        //取到tempArr的值
+        for(var i=0;i<keywords.length;i++) {
+            if(keywords[i].indexOf(text)==0) {
+                tempArr.push(keywords[i]);
+            };
+        }
+        //创建div
+        var dvObj = document.createElement("div");
+        dvObj.id = "dv";
+        //把div加入到box div中，并给div设置css样式
+        document.getElementById("box").appendChild(dvObj);
+        dvObj.style.border = "1px solid green";
+        dvObj.style.width = "350px";
+        for(var j=0;j<tempArr.length;j++){
+            var pObj = document.createElement("p");
+            dvObj.appendChild(pObj);
+            setInnerText(pObj, tempArr[j]);
+        }
+    }
+</script>
+</body>
+</html>
