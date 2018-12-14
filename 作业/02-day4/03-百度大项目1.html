@@ -4,7 +4,71 @@
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
-<body>
+<style>
+    #box {
+        width: 450px;
+        margin: 200px auto;
+    }
 
+    #txt {
+        width: 350px;
+    }
+</style>
+<body>
+<div id="box">
+    <input type="text" value="" id="txt">
+    <input type="button" value="Search" id="btn">
+</div>
+<script>
+    var keywords = ["yong", "muye", "huiping", "yangxiao", "mutianya", "hello", "muoon", "young"];
+    document.getElementById("txt").onkeyup = function () {
+        if (document.getElementById("dv")) {
+            document.getElementById("box").removeChild(document.getElementById("dv"));
+        }
+        var text = this.value;
+        var tempArr = [];
+        for (var i = 0; i < keywords.length; i++) {
+            if (keywords[i].indexOf(text) == 0) {
+                tempArr.push(keywords[i]);
+            }
+        }
+        if (this.value.length == 0 || tempArr.length == 0) {
+            if (document.getElementById("dv")) {
+                document.getElementById("box").removeChild(document.getElementById("dv"));
+            }
+            return;
+        }
+        var dvObj = document.createElement("div");
+        dvObj.id = "dv";
+        dvObj.style.width = "350px";
+        dvObj.style.border = "1px solid green";
+        document.getElementById("box").appendChild(dvObj);
+        for (var j = 0; j < tempArr.length; j++) {
+            var pObj = document.createElement("p");
+            dvObj.appendChild(pObj);
+            setInnerText(pObj, tempArr[j]);
+            pObj.style.cursor = "pointer";
+            pObj.style.margin = 0;
+            pObj.style.padding = 0;
+            pObj.style.marginTop = "5px";
+            pObj.style.marginLeft = "5px";
+            pObj.onmouseover = mouseoverHandle;
+            pObj.onmouseout = mouseoutHandle;
+        }
+    }
+    function setInnerText(element, text) {
+        if (typeof element.textContent == "undefined") {
+            element.innerText = text;
+        } else {
+            element.textContent = text;
+        }
+    }
+    function mouseoverHandle(){
+        this.style.backgroundColor = "yellow";
+    }
+    function mouseoutHandle() {
+        this.style.backgroundColor = "";
+    }
+</script>
 </body>
 </html>

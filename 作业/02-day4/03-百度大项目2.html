@@ -4,6 +4,17 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <style>
+        /*
+            var str = "yong";
+            console.log(str.indexOf("y"));  ->0
+            console.log(str.indexOf("yo"));  ->0
+            console.log(str.indexOf("yon"));  ->0
+            console.log(str.indexOf("yong"));  ->0
+            console.log(str.indexOf("yona"));   ->-1
+        前面四行代码输出的都是0，所以，我们判断indexOf的值，只要是0，那就是匹配的，无论是几个字符；
+         */
+    </style>
+    <style>
         #box {
             width: 450px;
             margin: 200px auto;
@@ -12,62 +23,44 @@
         #txt {
             width: 350px;
         }
-
-        /*#pop {*/
-        /*width: 350px;*/
-        /*border: 1px solid red;*/
-        /*}*/
-
-        /*#pop ul {*/
-        /*margin: 10px;*/
-        /*padding: 0px;*/
-        /*width: 200px;*/
-        /*list-style-type: none;*/
-        /*}*/
-
-        /*#pop ul li {*/
-
-        /*}*/
-
     </style>
 </head>
 <body>
 <div id="box">
-    <input type="text" id="txt" value="">
+    <input type="text" value="" id="txt">
     <input type="button" value="Search" id="btn">
 </div>
 <script>
     var keywords = ["yong", "muye", "huiping", "yangxiao", "mutianya", "hello", "muoon", "young"];
     document.getElementById("txt").onkeyup = function () {
-        if (document.getElementById("dv")) {      //先检查是否有新建的div，有的话就删掉
+        if (document.getElementById("dv")) {          //有div则删除
             document.getElementById("box").removeChild(document.getElementById("dv"));
         }
-        var text = this.value;     //获取文本框输入的内容
-        var tempArr = [];      //定义一个空数组，用来存放对应上的数值
-        for (var i = 0; i < keywords.length; i++) {       //遍历keywords数组，用来对比
-            if (keywords[i].indexOf(text) == 0) {
-                tempArr.push(keywords[i]);           //如果第一个字符相同，则把该字符串加入到tempArr中去
-            };
-        };
-        if(this.value.length ==0 || tempArr.length ==0) {     //如果输入框是空的，或者tempArr为空，那么删掉新建的div
+        var text = this.value;
+        var tempArr = [];
+        for (var i = 0; i < keywords.length; i++) {
+            if (keywords[i].indexOf(text) === 0) {
+                tempArr.push(keywords[i]);
+            }
+        }
+        if (this.value.length === 0 || tempArr.length === 0) {          //此时有div则删除
             if (document.getElementById("dv")) {
                 document.getElementById("box").removeChild(document.getElementById("dv"));
-            };
-            return;
+            }
+            return;        //删掉div后应直接跳出，否则下面的代码会接着执行。函数(.onkeyup)中遇到return，后面代码就不执行了
         }
-        //创建div
         var dvObj = document.createElement("div");
         dvObj.id = "dv";
         document.getElementById("box").appendChild(dvObj);
-        dvObj.style.border = "1px solid green";
         dvObj.style.width = "350px";
+        dvObj.style.border = "1px solid blue";
         for (var j = 0; j < tempArr.length; j++) {
             var pObj = document.createElement("p");
             dvObj.appendChild(pObj);
             setInnerText(pObj, tempArr[j]);
+            pObj.style.cursor = "pointer";
             pObj.style.margin = 0;
             pObj.style.padding = 0;
-            pObj.style.cursor = "pointer";
             pObj.style.marginTop = "5px";
             pObj.style.marginLeft = "5px";
             pObj.onmouseover = mouseoverHandle;
@@ -82,10 +75,12 @@
             element.textContent = text;
         }
     }
-    function mouseoverHandle(){
+
+    function mouseoverHandle() {
         this.style.backgroundColor = "yellow";
     }
-    function mouseoutHandle(){
+
+    function mouseoutHandle() {
         this.style.backgroundColor = "";
     }
 </script>
