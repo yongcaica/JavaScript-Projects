@@ -3,8 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <style>
+        div{
+            background-color: black;
+            height: 600px;
+            width: 600px;
+            position: relative;
+        }
+        span{
+            color: yellow;
+            position: absolute;
+        }
+    </style>
 </head>
 <body>
-
+<input type="button" value="Shining" id="btn">
+<input type="button" value="stop" id="btn1">
+<div id="dv">
+    <span id="sp">☆</span>
+</div>
+<script>
+    var timeId = "";
+    document.getElementById("btn").onclick = function(){
+        timeId = setInterval(function(){
+            var x = parseInt(Math.random()*600+1);
+            var y = parseInt(Math.random()*600+1);
+            document.getElementById("sp").style.marginLeft = x + "px";
+            document.getElementById("sp").style.marginTop = y + "px";
+        },10)
+    }
+    document.getElementById("btn1").onclick = function(){
+        clearInterval(timeId);
+    }
+</script>
 </body>
 </html>

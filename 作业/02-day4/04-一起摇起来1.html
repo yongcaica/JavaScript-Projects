@@ -3,8 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <style>
+        img{
+            height: 180px;
+            width: 200px;
+        }
+        div{
+            position: absolute;
+        }
+    </style>
 </head>
 <body>
-
+<input type="button" value="Shake" id="btn1">
+<input type="button" value="Stop" id="btn2">
+<div id="box">
+    <img src="images\heihei.jpg" alt="" id="im1">
+    <img src="images\lyml.jpg" alt="" id="im2">
+</div>
+<script>
+    var timeId = "";
+    document.getElementById("btn1").onclick = function(){
+        timeId = setInterval(function(){
+            var x = parseInt(Math.random()*200+1);
+            var y = parseInt(Math.random()*200+1);
+            document.getElementById("box").style.marginLeft = x + "px";
+            document.getElementById("box").style.marginTop = y + "px";
+        }, 300)
+    };
+    document.getElementById("btn2").onclick = function(){
+        clearInterval(timeId);
+    }
+</script>
 </body>
 </html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<textarea rows="10" cols="30">Google News is a news aggregator and app developed by Google.</textarea>
+<input type="button" value="Pls read agreement(5)" id="btn" disabled>
+<script>
+    var time = 5;
+    var timeId = setInterval(function(){
+        time--;
+        document.getElementById("btn").value = "Pls read agreement" + "(" + time + ")";
+        if(time == 0){
+            clearInterval(timeId);
+            document.getElementById("btn").value = "Agree";
+            document.getElementById("btn").disabled = false;
+        }
+    }, 1000)
+</script>
+</body>
+</html>

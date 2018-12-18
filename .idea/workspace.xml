@@ -2,12 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45ca14f3-f938-493d-a4ce-c194e94cfdb0" name="Default Changelist" comment="update">
-      <change afterPath="$PROJECT_DIR$/999.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/02-day4/03-百度大项目2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/888.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/02-day5/01-完整轮播图.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/02-day5/02-完整轮播图.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/02-day5/03-完整轮播图.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/02-day5/04-协议按钮禁用1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/02-day5/05-div渐变.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/02-day5/05-div渐变1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/02-day5/06-设置div的宽度.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/02-day5/06-设置div的宽度1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/02-day5/07-移动元素.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/02-day5/07-移动元素1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/02-day5/08-动画函数封装.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/02-day5/09-简单的轮播图.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/02-day5/10-左右焦点轮播图.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/02-day5/11-无缝连接的轮播图.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/999.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/作业/02-day4/03-百度大项目.html" beforeDir="false" afterPath="$PROJECT_DIR$/作业/02-day4/03-百度大项目.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/作业/02-day4/03-百度大项目1.html" beforeDir="false" afterPath="$PROJECT_DIR$/作业/02-day4/03-百度大项目1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/02-day4/04-一起摇起来.html" beforeDir="false" afterPath="$PROJECT_DIR$/作业/02-day4/04-一起摇起来.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/02-day4/04-一起摇起来1.html" beforeDir="false" afterPath="$PROJECT_DIR$/作业/02-day4/04-一起摇起来1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/02-day4/05-一闪一闪亮晶晶.html" beforeDir="false" afterPath="$PROJECT_DIR$/作业/02-day4/05-一闪一闪亮晶晶.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/02-day4/05-一闪一闪亮晶晶1.html" beforeDir="false" afterPath="$PROJECT_DIR$/作业/02-day4/05-一闪一闪亮晶晶1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/02-day4/06-美女时钟.html" beforeDir="false" afterPath="$PROJECT_DIR$/作业/02-day4/06-美女时钟.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/02-day4/06-美女时钟1.html" beforeDir="false" afterPath="$PROJECT_DIR$/作业/02-day4/06-美女时钟1.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,40 +39,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://D:/02-JavaScript-WEB-API视频/day1/01教学资料/02-Web API/02-Web API.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SECOND">
-              <first_editor relative-caret-position="2160">
-                <caret line="80" column="5" selection-start-line="80" selection-start-column="5" selection-end-line="80" selection-end-column="5" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/作业/02-day4/03-百度大项目1.html">
+        <entry file="file://$PROJECT_DIR$/888.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="25" column="46" lean-forward="true" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
+            <state relative-caret-position="243">
+              <caret line="9" column="59" selection-start-line="9" selection-start-column="59" selection-end-line="9" selection-end-column="59" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/作业/02-day4/03-百度大项目2.html">
+        <entry file="file://$PROJECT_DIR$/作业/02-day5/08-动画函数封装.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="37" column="12" lean-forward="true" selection-start-line="35" selection-start-column="11" selection-end-line="37" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="8" selection-start-line="8" selection-end-line="13" selection-end-column="37" />
+            <state relative-caret-position="189">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -75,24 +72,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/06-001.html" />
-        <option value="$PROJECT_DIR$/06-003.html" />
-        <option value="$PROJECT_DIR$/06-004.html" />
-        <option value="$PROJECT_DIR$/common1.js" />
-        <option value="$PROJECT_DIR$/06-005.html" />
-        <option value="$PROJECT_DIR$/06-006.html" />
-        <option value="$PROJECT_DIR$/06-007.html" />
-        <option value="$PROJECT_DIR$/06-008.html" />
-        <option value="$PROJECT_DIR$/06-009.html" />
-        <option value="$PROJECT_DIR$/06-010.html" />
-        <option value="$PROJECT_DIR$/21-001冒泡排序.html" />
-        <option value="$PROJECT_DIR$/21-002.html" />
-        <option value="$PROJECT_DIR$/21-002数组的sort方法.html" />
-        <option value="$PROJECT_DIR$/反复练习/21-002数组的sort方法.html" />
-        <option value="$PROJECT_DIR$/反复练习/0005 清空数组.html" />
-        <option value="$PROJECT_DIR$/21-001.html" />
-        <option value="$PROJECT_DIR$/21-003.html" />
-        <option value="$PROJECT_DIR$/73783737.html" />
         <option value="$PROJECT_DIR$/0006-按钮的排他功能.html" />
         <option value="$PROJECT_DIR$/common.js" />
         <option value="$PROJECT_DIR$/9938338.html" />
@@ -113,19 +92,37 @@
         <option value="$PROJECT_DIR$/test1212.html" />
         <option value="$PROJECT_DIR$/mediaPlayer.html" />
         <option value="$PROJECT_DIR$/jintian.html" />
-        <option value="$PROJECT_DIR$/作业/02-day4/04-一起摇起来.html" />
-        <option value="$PROJECT_DIR$/作业/02-day4/05-一闪一闪亮晶晶.html" />
-        <option value="$PROJECT_DIR$/作业/02-day4/06-美女时钟.html" />
         <option value="$PROJECT_DIR$/作业/02-day4/其他的作业.html" />
-        <option value="$PROJECT_DIR$/888.html" />
         <option value="$PROJECT_DIR$/作业/02-day4/01-绑定和解绑事件的兼容代码.html" />
         <option value="$PROJECT_DIR$/作业/02-day4/02-为同一个元素绑定多个不同事件指向同一个事件处理函数.html" />
         <option value="$PROJECT_DIR$/作业/02-day4/02-为同一个元素绑定多个不同事件指向同一个事件处理函数1.html" />
         <option value="$PROJECT_DIR$/999.html" />
         <option value="$PROJECT_DIR$/作业/02-day4/03-百度大项目.html" />
         <option value="$PROJECT_DIR$/作业/02-day4/03-百度大项目1.html" />
-        <option value="$PROJECT_DIR$/test.html" />
         <option value="$PROJECT_DIR$/作业/02-day4/03-百度大项目2.html" />
+        <option value="$PROJECT_DIR$/作业/02-day4/04-一起摇起来.html" />
+        <option value="$PROJECT_DIR$/作业/02-day4/04-一起摇起来1.html" />
+        <option value="$PROJECT_DIR$/作业/02-day4/05-一闪一闪亮晶晶.html" />
+        <option value="$PROJECT_DIR$/作业/02-day4/05-一闪一闪亮晶晶1.html" />
+        <option value="$PROJECT_DIR$/作业/02-day4/06-美女时钟.html" />
+        <option value="$PROJECT_DIR$/作业/02-day4/06-美女时钟1.html" />
+        <option value="$PROJECT_DIR$/test.html" />
+        <option value="$PROJECT_DIR$/作业/02-day5/02-完整轮播图.html" />
+        <option value="$PROJECT_DIR$/作业/02-day5/03-完整轮播图.html" />
+        <option value="$PROJECT_DIR$/作业/02-day5/01-完整轮播图.html" />
+        <option value="$PROJECT_DIR$/作业/02-day5/08-动画函数封装.html" />
+        <option value="$PROJECT_DIR$/作业/02-day5/09-简单的轮播图.html" />
+        <option value="$PROJECT_DIR$/作业/02-day5/10-左右焦点轮播图.html" />
+        <option value="$PROJECT_DIR$/作业/02-day5/11-无缝连接的轮播图.html" />
+        <option value="$PROJECT_DIR$/作业/02-day5/05-div渐变.html" />
+        <option value="$PROJECT_DIR$/作业/02-day5/05-div渐变1.html" />
+        <option value="$PROJECT_DIR$/作业/02-day5/06-设置div的宽度.html" />
+        <option value="$PROJECT_DIR$/作业/02-day5/06-设置div的宽度1.html" />
+        <option value="$PROJECT_DIR$/作业/02-day5/04-协议按钮禁用.html" />
+        <option value="$PROJECT_DIR$/作业/02-day5/04-协议按钮禁用1.html" />
+        <option value="$PROJECT_DIR$/888.html" />
+        <option value="$PROJECT_DIR$/作业/02-day5/07-移动元素.html" />
+        <option value="$PROJECT_DIR$/作业/02-day5/07-移动元素1.html" />
       </list>
     </option>
   </component>
@@ -143,6 +140,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -159,13 +157,12 @@
               <item name="JavaScript" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaScript" type="462c0819:PsiDirectoryNode" />
               <item name="作业" type="462c0819:PsiDirectoryNode" />
-              <item name="02-day4" type="462c0819:PsiDirectoryNode" />
+              <item name="02-day5" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -236,18 +233,23 @@
       <workItem from="1544708389781" duration="2371000" />
       <workItem from="1544716669183" duration="11769000" />
       <workItem from="1544732582134" duration="11033000" />
-      <workItem from="1544753356007" duration="11616000" />
+      <workItem from="1544753356007" duration="11888000" />
+      <workItem from="1544796388730" duration="635000" />
+      <workItem from="1544798210644" duration="9627000" />
+      <workItem from="1544929649809" duration="598000" />
+      <workItem from="1545014871949" duration="8078000" />
+      <workItem from="1545063717202" duration="2737000" />
+      <workItem from="1545100021376" duration="5945000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="112084000" />
+    <option name="totallyTimeSpent" value="139976000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17966281" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13434023" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="0" weight="0.32936078" />
@@ -275,63 +277,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/06-006.html" />
-    <entry file="file://$PROJECT_DIR$/06-007.html" />
-    <entry file="file://$PROJECT_DIR$/06-010.html" />
-    <entry file="file://$PROJECT_DIR$/反复练习/0001-找到数组中每个a出现的位置.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/反复练习/0002-去掉一个数组中的重复元素.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="844">
-          <caret line="33" selection-start-line="33" selection-end-line="34" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/反复练习/0003-冒泡排序.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/反复练习/0004-数组的sort方法.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/21-001.html" />
-    <entry file="file://$PROJECT_DIR$/反复练习/0005 清空数组.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/73783737.html" />
-    <entry file="file://$PROJECT_DIR$/21-003.html" />
-    <entry file="file://$PROJECT_DIR$/9938338.html" />
-    <entry file="file://$PROJECT_DIR$/反复练习/0007-点击显示和隐藏div.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/反复练习/common.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common.js" />
     <entry file="file://$PROJECT_DIR$/022-004.html" />
     <entry file="file://$PROJECT_DIR$/022-005.html" />
     <entry file="file://$PROJECT_DIR$/022-006.html" />
@@ -383,40 +328,6 @@
     <entry file="file://$PROJECT_DIR$/mediaPlayer.html" />
     <entry file="file://$PROJECT_DIR$/test1212.html" />
     <entry file="file://$PROJECT_DIR$/jintian.html" />
-    <entry file="file://$PROJECT_DIR$/作业/02-day4/04-一起摇起来.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/作业/02-day4/04-一起摇起来1.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/作业/02-day4/05-一闪一闪亮晶晶1.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/作业/02-day4/06-美女时钟.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/作业/02-day4/06-美女时钟1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/作业/02-day4/05-一闪一闪亮晶晶.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/作业/02-day4/其他的作业.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
@@ -424,14 +335,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="6085" column="4" selection-start-line="6085" selection-start-column="4" selection-end-line="6085" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/888.html" />
     <entry file="file://$PROJECT_DIR$/作业/02-day4/01-绑定和解绑事件的兼容代码.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1917">
@@ -453,27 +356,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/02-JavaScript-WEB-API视频/day1/01教学资料/02-Web API/02-Web API.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SECOND">
-          <first_editor relative-caret-position="2160">
-            <caret line="80" column="5" selection-start-line="80" selection-start-column="5" selection-end-line="80" selection-end-column="5" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/999.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1620">
-          <caret line="111" column="7" selection-start-line="111" selection-start-column="7" selection-end-line="111" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/作业/02-day4/03-百度大项目.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="648">
           <caret line="63" selection-start-line="63" selection-end-line="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业/02-day4/03-百度大项目2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="35" column="63" selection-start-line="35" selection-start-column="63" selection-end-line="35" selection-end-column="63" />
         </state>
       </provider>
     </entry>
@@ -484,17 +377,188 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.html">
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
-          <caret line="8" selection-start-line="8" selection-end-line="13" selection-end-column="37" />
+          <caret line="17576" column="17" selection-start-line="17576" selection-start-column="17" selection-end-line="17576" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/作业/02-day4/03-百度大项目2.html">
+    <entry file="file://$PROJECT_DIR$/作业/02-day4/04-一起摇起来1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="37" column="12" lean-forward="true" selection-start-line="35" selection-start-column="11" selection-end-line="37" selection-end-column="12" />
+        <state relative-caret-position="405">
+          <caret line="21" column="6" lean-forward="true" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业/02-day4/05-一闪一闪亮晶晶1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="19" column="6" lean-forward="true" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业/02-day4/05-一闪一闪亮晶晶.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="24" column="8" lean-forward="true" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业/02-day4/04-一起摇起来.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业/02-day4/06-美女时钟.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业/02-day4/06-美女时钟1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="15" column="85" selection-start-line="15" selection-start-column="85" selection-end-line="15" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/02-JavaScript-WEB-API视频/day1/01教学资料/02-Web API/02-Web API.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SECOND">
+          <first_editor relative-caret-position="2160">
+            <caret line="80" column="5" selection-start-line="80" selection-start-column="5" selection-end-line="80" selection-end-column="5" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业/02-day5/02-完整轮播图.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业/02-day5/03-完整轮播图.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业/02-day5/01-完整轮播图.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业/02-day5/09-简单的轮播图.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业/02-day5/10-左右焦点轮播图.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业/02-day5/11-无缝连接的轮播图.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业/02-day5/05-div渐变.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业/02-day5/05-div渐变1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="24" column="71" selection-start-line="24" selection-start-column="71" selection-end-line="24" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业/02-day5/06-设置div的宽度.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业/02-day5/06-设置div的宽度1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业/02-day5/04-协议按钮禁用.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业/02-day5/04-协议按钮禁用1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="17" column="60" selection-start-line="17" selection-start-column="60" selection-end-line="17" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/999.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2670">
+          <caret line="111" column="7" selection-start-line="111" selection-start-column="7" selection-end-line="111" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/888.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="59" selection-start-line="9" selection-start-column="59" selection-end-line="9" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业/02-day5/07-移动元素1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="24" column="32" lean-forward="true" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业/02-day5/07-移动元素.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="564">
+          <caret line="43" column="20" lean-forward="true" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业/02-day5/08-动画函数封装.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>

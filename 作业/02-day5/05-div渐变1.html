@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div {
+            width: 200px;
+            height: 200px;
+            background-color: chartreuse;
+        }
+    </style>
+</head>
+<body>
+<div id="dv"></div>
+<input type="button" value="Change Opacity" id="btn">
+<script>
+    document.getElementById("btn").onclick = function () {
+        var opacity = 10;
+        var timeId = setInterval(function () {
+            opacity--;
+            if (opacity <= 0) {
+                clearInterval(timeId);
+            }
+            document.getElementById("dv").style.opacity = opacity / 10;
+        }, 500)
+    }
+</script>
+</body>
+</html>

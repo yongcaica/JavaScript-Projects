@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div{
+            width: 200px;
+            height: 100px;
+            background-color: #b467dc;
+            margin-top: 10px;
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+<input type="button" value="move to 400" id="btn1">
+<input type="button" value="move to 800" id="btn2">
+<div id="dv"></div>
+<script>
+    document.getElementById("btn1").onclick = function() {
+        var timeId = setInterval(function() {
+            var current = document.getElementById("dv").offsetLeft;
+            var step = 9;
+            if (current < 400) {
+                current += step;
+                document.getElementById("dv").style.left = current + "px";
+            } else if((current-400)/step<1){
+                clearInterval(timeId);
+            } else if(current>400 && current<= 800){
+                current -=step;
+                document.getElementById("dv").style.left = current + "px";
+            }
+        }, 20)
+    }
+    document.getElementById("btn2").onclick = function() {
+        var timeId = setInterval(function(){
+            var current = document.getElementById("dv").offsetLeft;
+            var step = 9;
+            current += step;
+            if(current <= 800) {
+                document.getElementById("dv").style.left = current + "px";
+            } else{
+                clearInterval(timeId);
+            }
+        },20)
+    }
+</script>
+</body>
+</html>

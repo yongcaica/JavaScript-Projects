@@ -5,6 +5,18 @@
     <title>Title</title>
 </head>
 <body>
-
+<img src="" alt="" id="im">
+<script>
+    function f1(){
+        var dt = new Date();
+        var hour = dt.getHours();
+        var second = dt.getSeconds();
+        hour = hour<10?"0"+hour:hour;
+        second = second<10?"0"+second:second;
+        document.getElementById("im").src = "meimei/" + hour + "_" + second + ".jpg";
+    }
+    f1();
+    setInterval(f1, 1000);
+</script>
 </body>
 </html>
