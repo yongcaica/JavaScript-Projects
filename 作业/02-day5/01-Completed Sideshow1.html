@@ -101,6 +101,7 @@
             <li><img src="images3\3.jpg"</li>
             <li><img src="images3\4.jpg"</li>
             <li><img src="images3\5.jpg"</li>
+            <!--<li><img src="images1\01.jpg"</li>-->
         </ul>
         <ol>
 
@@ -109,6 +110,8 @@
     <div id="arr"><span id="left">&lt;</span><span id="right">&gt;</span></div>
 </div>
 <script>
+    //给box一个id，其中的元素用box来进行定义，方便后续的更改和扩展，比如增加了一张图片
+    //就不需要修改里面的id了
     var box = document.getElementById("box");
     var screen = box.children[0];
     var imgWidth = screen.offsetWidth;
@@ -118,59 +121,84 @@
     var arr = document.getElementById("arr");
 
     var pic = 0;
+    //创建小按钮
     for (var i = 0; i < list.length; i++) {
-        var liObj = document.createElement("li");      //liObj是一个元素，这个循环创建了多个元素
+        var liObj = document.createElement("li");
         olObj.appendChild(liObj);
         liObj.innerHTML = i + 1;
         liObj.setAttribute("index", i);
         liObj.onmouseover = function () {
-            for (var j = 0; j < olObj.children.length; j++) {      //olobj.children是一个元素集合
+            for (var j = 0; j < olObj.children.length; j++) {
                 olObj.children[j].removeAttribute("class");
             }
             this.className = "current";
             pic = this.getAttribute("index");
-            animate(ulObj, -pic*imgWidth);
+            animate(ulObj, -pic * imgWidth);
         }
     }
     olObj.children[0].className = "current";  //设置第一个li的颜色
 
-    ulObj.appendChild(olObj.children[0].cloneNode(true));
+    ulObj.appendChild(ulObj.children[0].cloneNode(true));
 
     var timeId = setInterval(clickHandle, 1000);
 
-    box.onmouseover = function(){
+    box.onmouseover = function () {
         arr.style.display = "block";
         clearInterval(timeId);
-    }
-    box.onmouseout = function() {
+    };
+    box.onmouseout = function () {
         arr.style.display = "none";
-        setInterval(clickHandle, 1000);
-    }
+        timeId = setInterval(clickHandle, 1000);
+    };
 
     document.getElementById("right").onclick = clickHandle;
-    function clickHandle(){
 
-    }
+    function clickHandle() {
+        if (pic == list.length - 1) {
+            pic = 0;
+            ulObj.style.left = 0 + "px";
+        }
+        pic++;
+        animate(ulObj, -pic * imgWidth);
+        if (pic == list.length - 1) {
+            olObj.children[olObj.children.length - 1].className = "";
+            olObj.children[0].className = "current";
+        } else {
+            for (var j = 0; j < olObj.children.length; j++) {
+                olObj.children[j].removeAttribute("class");
+            }
+            olObj.children[pic].className = "current";
+        }
+    };
 
-    document.getElementById("left").onclick = function(){
-        
-    }
+    document.getElementById("left").onclick = function () {
+        if (pic == 0) {
+            pic = 5;
+            ulObj.style.left = -pic * imgWidth + "px";
+        }
+        pic--;
+        animate(ulObj, -pic * imgWidth);
+        for (var i = 0; i < olObj.children.length; i++) {
+            olObj.children[i].removeAttribute("class");
+        }
+        olObj.children[pic].className = "current";
+    };
 
-    function animate(element, target){
+    function animate(element, target) {
         clearInterval(element.timeId);
-        element.timeId = setInterval(function(){
+        element.timeId = setInterval(function () {
             var current = element.offsetLeft;
             step = 10;
-            step = current < target? step:-step;
+            step = current < target ? step : -step;
             current += step;
-            if(Math.abs(current-target)>Math.abs(step)){
+            if (Math.abs(current - target) > Math.abs(step)) {
                 element.style.left = current + "px";
             } else {
                 clearInterval(element.timeId);
                 element.style.left = target + "px";
             }
-        }, 20)
-    }
+        }, 10)
+    };
 </script>
 </body>
 </html>
