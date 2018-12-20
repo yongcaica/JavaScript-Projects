@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title></title>
+    <title>Title</title>
     <style type="text/css">
         * {
             padding: 0;
@@ -101,7 +101,6 @@
             <li><img src="images3\3.jpg"</li>
             <li><img src="images3\4.jpg"</li>
             <li><img src="images3\5.jpg"</li>
-            <!--<li><img src="images1\01.jpg"</li>-->
         </ul>
         <ol>
 
@@ -113,66 +112,72 @@
     </div>
 </div>
 <script>
-    //给box一个id，其中的元素用box来进行定义，方便后续的更改和扩展，比如增加了一张图片
-    //就不需要修改里面的id了
     var box = document.getElementById("box");
     var screen = box.children[0];
     var imgWidth = screen.offsetWidth;
     var ulObj = screen.children[0];
-    var list = ulObj.children;      //picture list
-    var olObj = screen.children[1];        //little button list, will be created by manual
-    var arr = document.getElementById("arr");      //focus button, it's in a standalone div
+    var list = ulObj.children;
+    var olObj = screen.children[1];
+    var arr = document.getElementById("arr");
 
-    var pic = 0;      //global var
-    //创建小按钮
-    for (var i = 0; i < list.length; i++) {
+    var pic = 0;     //index
+    for (var i = 0; i < list.length; i++) {          //add small buttons
         var liObj = document.createElement("li");
         olObj.appendChild(liObj);
-        liObj.innerHTML = i + 1;
+        liObj.innerHTML = (i + 1);
         liObj.setAttribute("index", i);
-        liObj.onmouseover = function () {
-            for (var j = 0; j < olObj.children.length; j++) {
-                olObj.children[j].removeAttribute("class");
+        liObj.onmouseover = function () {               //add mouse event for these buttons
+            for (var j = 0; j < olObj.children.length; j++) {       //can we use "liObj.removeAttribute("class") to replace?
+                // olObj.children[j].removeAttribute("class");
+                liObj.removeAttribute("class");
             }
             this.className = "current";
             pic = this.getAttribute("index");
             animate(ulObj, -pic * imgWidth);
         }
     }
-    olObj.children[0].className = "current";  //设置第一个li的颜色
 
-    ulObj.appendChild(ulObj.children[0].cloneNode(true));
+    olObj.children[0].className = "current";    //set first small button's className as "current"
 
-    var timeId = setInterval(clickHandle, 1000);
+    ulObj.appendChild(ulObj.children[0].cloneNode(true));    //actually there are six pictures, clone and append
+
+    var timeId = setInterval(clickHandle, 1000);       //show images automatically
 
     box.onmouseover = function () {
         arr.style.display = "block";
         clearInterval(timeId);
     };
+
     box.onmouseout = function () {
         arr.style.display = "none";
         timeId = setInterval(clickHandle, 1000);
     };
 
-    document.getElementById("right").onclick = clickHandle;
-
+    document.getElementById("right").onclick = clickHandle;           //show images by click
     function clickHandle() {
+        //如果pic的值是5,恰巧是ul中li的个数-1的值,此时页面显示第六个图片,而用户会认为这是第一个图,
+        //所以,如果用户再次点击按钮,用户应该看到第二个图片
         if (pic == list.length - 1) {
-            pic = 0;
-            ulObj.style.left = 0 + "px";
+            //如何从第6个图,跳转到第一个图
+            pic = 0;//先设置pic=0
+            ulObj.style.left = 0 + "px";//把ul的位置还原成开始的默认位置
         }
-        pic++;
-        animate(ulObj, -pic * imgWidth);
+        pic++;//立刻设置pic加1,那么此时用户就会看到第二个图片了
+        animate(ulObj, -pic * imgWidth);//pic从0的值加1之后,pic的值是1,然后ul移动出去一个图片
+        //如果pic==5说明,此时显示第6个图(内容是第一张图片),第一个小按钮有颜色,
         if (pic == list.length - 1) {
+            //第五个按钮颜色干掉
             olObj.children[olObj.children.length - 1].className = "";
+            //第一个按钮颜色设置上
             olObj.children[0].className = "current";
         } else {
-            for (var j = 0; j < olObj.children.length; j++) {
-                olObj.children[j].removeAttribute("class");
+            //干掉所有的小按钮的背景颜色
+            for (var i = 0; i < olObj.children.length; i++) {
+                olObj.children[i].removeAttribute("class");
             }
             olObj.children[pic].className = "current";
         }
-    }
+    };
 
     document.getElementById("left").onclick = function () {
         if (pic == 0) {
@@ -181,17 +186,19 @@
         }
         pic--;
         animate(ulObj, -pic * imgWidth);
+        //设置小按钮的颜色---所有的小按钮干掉颜色
         for (var i = 0; i < olObj.children.length; i++) {
             olObj.children[i].removeAttribute("class");
         }
+        //当前的pic索引对应的按钮设置颜色
         olObj.children[pic].className = "current";
     };
 
     function animate(element, target) {
         clearInterval(element.timeId);
         element.timeId = setInterval(function () {
-            var current = element.offsetLeft;
-            step = 10;
+            var current = element.style.offsetLeft;
+            var step = 10;
             step = current < target ? step : -step;
             current += step;
             if (Math.abs(current - target) > Math.abs(step)) {

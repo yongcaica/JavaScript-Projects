@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title></title>
+    <title>Title</title>
     <style type="text/css">
         * {
             padding: 0;
@@ -101,7 +101,6 @@
             <li><img src="images3\3.jpg"</li>
             <li><img src="images3\4.jpg"</li>
             <li><img src="images3\5.jpg"</li>
-            <!--<li><img src="images1\01.jpg"</li>-->
         </ul>
         <ol>
 
@@ -113,24 +112,21 @@
     </div>
 </div>
 <script>
-    //给box一个id，其中的元素用box来进行定义，方便后续的更改和扩展，比如增加了一张图片
-    //就不需要修改里面的id了
     var box = document.getElementById("box");
     var screen = box.children[0];
     var imgWidth = screen.offsetWidth;
     var ulObj = screen.children[0];
-    var list = ulObj.children;      //picture list
-    var olObj = screen.children[1];        //little button list, will be created by manual
-    var arr = document.getElementById("arr");      //focus button, it's in a standalone div
+    var list = ulObj.children;
+    var olObj = screen.children[1];
+    var arr = document.getElementById("arr");
 
-    var pic = 0;      //global var
-    //创建小按钮
+    var pic = 0;
     for (var i = 0; i < list.length; i++) {
         var liObj = document.createElement("li");
         olObj.appendChild(liObj);
-        liObj.innerHTML = i + 1;
+        liObj.innerHTML = (i + 1);
         liObj.setAttribute("index", i);
-        liObj.onmouseover = function () {
+        olObj.children[i].onmouseover = function () {
             for (var j = 0; j < olObj.children.length; j++) {
                 olObj.children[j].removeAttribute("class");
             }
@@ -139,19 +135,20 @@
             animate(ulObj, -pic * imgWidth);
         }
     }
-    olObj.children[0].className = "current";  //设置第一个li的颜色
+
+    olObj.children[0].setAttribute("class", "current");
 
     ulObj.appendChild(ulObj.children[0].cloneNode(true));
 
     var timeId = setInterval(clickHandle, 1000);
 
     box.onmouseover = function () {
-        arr.style.display = "block";
         clearInterval(timeId);
+        arr.style.display = "block";
     };
+
     box.onmouseout = function () {
         arr.style.display = "none";
-        timeId = setInterval(clickHandle, 1000);
     };
 
     document.getElementById("right").onclick = clickHandle;
@@ -163,12 +160,12 @@
         }
         pic++;
         animate(ulObj, -pic * imgWidth);
-        if (pic == list.length - 1) {
-            olObj.children[olObj.children.length - 1].className = "";
+        if(pic == list.length - 1) {                                     //list.length = 6, the 6th picture
+            olObj.children[olObj.children.length-1].className = "";      //olObj.children.length = 5
             olObj.children[0].className = "current";
         } else {
-            for (var j = 0; j < olObj.children.length; j++) {
-                olObj.children[j].removeAttribute("class");
+            for (var i = 0; i < list.length - 1; i++) {
+                olObj.children[i].className = "";
             }
             olObj.children[pic].className = "current";
         }
@@ -176,32 +173,34 @@
 
     document.getElementById("left").onclick = function () {
         if (pic == 0) {
-            pic = 5;
+            pic = list.length - 1;
+            // console.log(list.length);
             ulObj.style.left = -pic * imgWidth + "px";
         }
         pic--;
         animate(ulObj, -pic * imgWidth);
-        for (var i = 0; i < olObj.children.length; i++) {
-            olObj.children[i].removeAttribute("class");
+        for (var i = 0; i < list.length - 1; i++) {
+            olObj.children[i].className = "";
         }
         olObj.children[pic].className = "current";
-    };
+    }
 
     function animate(element, target) {
         clearInterval(element.timeId);
         element.timeId = setInterval(function () {
             var current = element.offsetLeft;
-            step = 10;
+            var step = 10;
             step = current < target ? step : -step;
             current += step;
             if (Math.abs(current - target) > Math.abs(step)) {
                 element.style.left = current + "px";
             } else {
-                clearInterval(element.timeId);
                 element.style.left = target + "px";
+                clearInterval(element.timeId);
             }
         }, 10)
     }
+
 </script>
 </body>
 </html>

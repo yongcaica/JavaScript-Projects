@@ -1,0 +1,20 @@
+
+
+
+ //add small buttons
+     //add mouse event for these buttons
+
+ //set first small button's className as "current"
+
+ //actually there are six pictures, clone and append
+
+ //show images automatically
+
+ box in
+ box out
+
+ //right click
+
+ //left click
+
+ function
