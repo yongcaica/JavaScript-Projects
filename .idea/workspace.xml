@@ -2,6 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45ca14f3-f938-493d-a4ce-c194e94cfdb0" name="Default Changelist" comment="update">
+      <change afterPath="$PROJECT_DIR$/作业/02-day6/01-offset, scroll, client.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/02-day6/02-getScroll Function.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/02-day6/03-animation function(uniform).html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/02-day6/04-animation function(change speed)-05example.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/02-day6/05-animation final verison 11example.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/02-day6/06-example 04.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/02-day6/07-example 06.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/02-day6/08-exmaple 12.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/02-day6/09-exmaple 13.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/02-day6/10-example 15.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/02-day6/11-example 17.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/02-day6/12-getStyle function 07exmaple.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -15,20 +27,92 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/888">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/作业/02-day6/03-animation function(uniform).html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+            <state relative-caret-position="108">
+              <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/作业/02-day5/12-mousemove followed by image.html">
+        <entry file="file://$PROJECT_DIR$/作业/02-day6/04-animation function(change speed)-05example.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+            <state relative-caret-position="108">
+              <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/作业/02-day6/05-animation final verison 11example.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/作业/02-day6/06-example 04.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/作业/02-day6/07-example 06.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/作业/02-day6/08-exmaple 12.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/作业/02-day6/09-exmaple 13.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/作业/02-day6/10-example 15.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/作业/02-day6/11-example 17.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/作业/02-day6/12-getStyle function 07exmaple.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -49,18 +133,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/testagain.html" />
-        <option value="$PROJECT_DIR$/baidu.html" />
-        <option value="$PROJECT_DIR$/baidu1.html" />
-        <option value="$PROJECT_DIR$/table.html" />
-        <option value="$PROJECT_DIR$/test1212.html" />
-        <option value="$PROJECT_DIR$/mediaPlayer.html" />
-        <option value="$PROJECT_DIR$/jintian.html" />
-        <option value="$PROJECT_DIR$/作业/02-day4/其他的作业.html" />
-        <option value="$PROJECT_DIR$/作业/02-day4/01-绑定和解绑事件的兼容代码.html" />
-        <option value="$PROJECT_DIR$/作业/02-day4/02-为同一个元素绑定多个不同事件指向同一个事件处理函数.html" />
-        <option value="$PROJECT_DIR$/作业/02-day4/02-为同一个元素绑定多个不同事件指向同一个事件处理函数1.html" />
-        <option value="$PROJECT_DIR$/999.html" />
         <option value="$PROJECT_DIR$/作业/02-day4/03-百度大项目.html" />
         <option value="$PROJECT_DIR$/作业/02-day4/03-百度大项目1.html" />
         <option value="$PROJECT_DIR$/作业/02-day4/03-百度大项目2.html" />
@@ -100,10 +172,22 @@
         <option value="$PROJECT_DIR$/作业/02-day5/images3/03-Completed Sideshow4.html" />
         <option value="$PROJECT_DIR$/作业/02-day5/12-mousemove followed by image.html" />
         <option value="$PROJECT_DIR$/作业/02-day5/03-Completed Sideshow4.html" />
+        <option value="$PROJECT_DIR$/作业/02-day6/01-offset, scroll, client.html" />
+        <option value="$PROJECT_DIR$/作业/02-day6/02-getScroll Function.html" />
+        <option value="$PROJECT_DIR$/作业/02-day6/03-animation function(uniform).html" />
+        <option value="$PROJECT_DIR$/作业/02-day6/04-animation function(change speed)-05example.html" />
+        <option value="$PROJECT_DIR$/作业/02-day6/05-animation final verison 11example.html" />
+        <option value="$PROJECT_DIR$/作业/02-day6/06-example 04.html" />
+        <option value="$PROJECT_DIR$/作业/02-day6/07-example 06.html" />
+        <option value="$PROJECT_DIR$/作业/02-day6/08-exmaple 12.html" />
+        <option value="$PROJECT_DIR$/作业/02-day6/09-exmaple 13.html" />
+        <option value="$PROJECT_DIR$/作业/02-day6/10-example 15.html" />
+        <option value="$PROJECT_DIR$/作业/02-day6/11-example 17.html" />
+        <option value="$PROJECT_DIR$/作业/02-day6/12-getStyle function 07exmaple.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1260" />
@@ -134,7 +218,7 @@
               <item name="JavaScript" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaScript" type="462c0819:PsiDirectoryNode" />
               <item name="作业" type="462c0819:PsiDirectoryNode" />
-              <item name="02-day5" type="462c0819:PsiDirectoryNode" />
+              <item name="02-day6" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -225,16 +309,15 @@
       <workItem from="1545314606586" duration="16019000" />
       <workItem from="1545359585364" duration="1194000" />
       <workItem from="1545403377774" duration="596000" />
-      <workItem from="1545442579792" duration="594000" />
+      <workItem from="1545442579792" duration="2931000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="217174000" />
+    <option name="totallyTimeSpent" value="219511000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19915701" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -264,45 +347,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/0009.html" />
-    <entry file="file://$PROJECT_DIR$/反复练习/0010-动态创建列表1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
-          <folding>
-            <element signature="n#style#0;n#ul#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testagain.html" />
-    <entry file="file://$PROJECT_DIR$/baidu.html" />
-    <entry file="file://$PROJECT_DIR$/baidu1.html" />
-    <entry file="file://$PROJECT_DIR$/0012-动态创建表格.html" />
-    <entry file="file://$PROJECT_DIR$/反复练习/0011-动态创建列表2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="19" column="35" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mediaPlayer.html" />
-    <entry file="file://$PROJECT_DIR$/test1212.html" />
-    <entry file="file://$PROJECT_DIR$/jintian.html" />
-    <entry file="file://$PROJECT_DIR$/作业/02-day4/其他的作业.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/作业/02-day4/01-绑定和解绑事件的兼容代码.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1917">
-          <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/作业/02-day4/02-为同一个元素绑定多个不同事件指向同一个事件处理函数.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
@@ -564,6 +608,90 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业/02-day6/01-offset, scroll, client.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业/02-day6/02-getScroll Function.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业/02-day6/03-animation function(uniform).html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业/02-day6/04-animation function(change speed)-05example.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业/02-day6/05-animation final verison 11example.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业/02-day6/06-example 04.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业/02-day6/07-example 06.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业/02-day6/08-exmaple 12.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业/02-day6/09-exmaple 13.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业/02-day6/10-example 15.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业/02-day6/11-example 17.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业/02-day6/12-getStyle function 07exmaple.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
         </state>
       </provider>
     </entry>
