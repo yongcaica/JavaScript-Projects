@@ -3,8 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-</head>
-<body>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
 
+        div {
+            margin-top: 20px;
+            width: 200px;
+            height: 100px;
+            background-color: green;
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+    </style>
+        </head>
+<body>
+<input type="button" value="move to 400px" id="btn1"/>
+<input type="button" value="move to 800px" id="btn2"/>
+<div id="dv">
+<script>
+    function animate(element, target){
+        clearInterval(element.timeId);
+        element.timeId = setInterval(function(){
+            var current = element.offsetLeft;
+            var step = 10;
+            step = current < target?step:-step;
+            current+=step;
+            if(Math.abs(current-target)>Math.abs(step)){
+                element.style.left = current + "px";
+            } else {
+                clearInterval(element.timeId);
+                element.style.left = target + "px";
+            }
+        },10)
+    }
+    document.getElementById("btn1").onclick = function(){
+        animate(document.getElementById("dv"), 400);
+    };
+    document.getElementById("btn2").onclick = function(){
+        animate(document.getElementById("dv"), 800);
+    };
+</script>
 </body>
 </html>
