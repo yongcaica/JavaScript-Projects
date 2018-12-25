@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45ca14f3-f938-493d-a4ce-c194e94cfdb0" name="Default Changelist" comment="update">
-      <change afterPath="$PROJECT_DIR$/作业/02-day6/05-animate final version 11example2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/02-day6/05-animation final version 11example1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/作业/02-day6/04-animation function(change speed)-05example.html" beforeDir="false" afterPath="$PROJECT_DIR$/作业/02-day6/04-animation function(change speed)-05example.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/作业/02-day6/05-animation final verison 11example.html" beforeDir="false" afterPath="$PROJECT_DIR$/作业/02-day6/05-animation final verison 11example.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/作业/02-day6/06-example 04.html" beforeDir="false" afterPath="$PROJECT_DIR$/作业/02-day6/06-example 04.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/02-day6/05-animate final version 11example2.html" beforeDir="false" afterPath="$PROJECT_DIR$/作业/02-day6/05-animate final version 11example2.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,29 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/作业/02-day6/05-animation final verison 11example.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1458">
-              <caret line="54" column="44" selection-start-line="54" selection-start-column="44" selection-end-line="54" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/作业/02-day6/05-animation final version 11example1.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="15" column="24" selection-start-line="5" selection-start-column="4" selection-end-line="27" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/作业/02-day6/05-animate final version 11example2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+            <state relative-caret-position="416">
+              <caret line="68" column="17" lean-forward="true" selection-start-line="68" selection-start-column="17" selection-end-line="68" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -56,11 +33,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/作业/02-day6/06-example 04.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
+            <state relative-caret-position="92">
+              <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/作业/02-day6/05-animation final version 11example1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1420">
+              <caret line="11" column="13" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="27" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/作业/02-day6/05-animation final verison 11example.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="621">
+              <caret line="77" column="130" selection-start-line="77" selection-start-column="130" selection-end-line="77" selection-end-column="130" />
             </state>
           </provider>
         </entry>
@@ -130,8 +125,8 @@
         <option value="$PROJECT_DIR$/作业/02-day6/05-animation final verison 11example.html" />
         <option value="$PROJECT_DIR$/作业/02-day6/05-animation final version 11example1.html" />
         <option value="$PROJECT_DIR$/作业/02-day6/05-animation final version 11example2.html" />
-        <option value="$PROJECT_DIR$/作业/02-day6/05-animate final version 11example2.html" />
         <option value="$PROJECT_DIR$/作业/02-day6/06-example 04.html" />
+        <option value="$PROJECT_DIR$/作业/02-day6/05-animate final version 11example2.html" />
       </list>
     </option>
   </component>
@@ -260,16 +255,15 @@
       <workItem from="1545442579792" duration="2931000" />
       <workItem from="1545538849763" duration="4574000" />
       <workItem from="1545623936288" duration="7206000" />
-      <workItem from="1545707776490" duration="2067000" />
+      <workItem from="1545707776490" duration="5086000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="233358000" />
+    <option name="totallyTimeSpent" value="236377000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19915701" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -605,13 +599,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/作业/02-day6/05-animation final verison 11example.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1458">
-          <caret line="54" column="44" selection-start-line="54" selection-start-column="44" selection-end-line="54" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/作业/02-day6/05-animation final version 11example2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -626,24 +613,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/作业/02-day6/05-animate final version 11example2.html">
+    <entry file="file://$PROJECT_DIR$/作业/02-day6/06-example 04.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+        <state relative-caret-position="92">
+          <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/作业/02-day6/05-animation final version 11example1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="15" column="24" selection-start-line="5" selection-start-column="4" selection-end-line="27" selection-end-column="12" />
+        <state relative-caret-position="-1420">
+          <caret line="11" column="13" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="27" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/作业/02-day6/06-example 04.html">
+    <entry file="file://$PROJECT_DIR$/作业/02-day6/05-animation final verison 11example.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
+        <state relative-caret-position="621">
+          <caret line="77" column="130" selection-start-line="77" selection-start-column="130" selection-end-line="77" selection-end-column="130" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业/02-day6/05-animate final version 11example2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="68" column="17" lean-forward="true" selection-start-line="68" selection-start-column="17" selection-end-line="68" selection-end-column="17" />
         </state>
       </provider>
     </entry>
