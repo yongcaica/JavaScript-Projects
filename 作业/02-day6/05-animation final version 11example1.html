@@ -53,18 +53,18 @@
                 } else {
                     var current = parseInt(getStyle(element, attr));
                     var target = json[attr];
-                    var step = (target-current)/10;
-                    step = step>0?Math.ceil(step):Math.floor(step);
+                    var step = (target - current) / 10;
+                    step = step > 0 ? Math.ceil(step) : Math.floor(step);
                     current += step;
                     element.style[attr] = current + "px";
                 }
-                if(current != target){
+                if (current != target) {
                     flag = false;
                 }
             }
-            if(flag){
+            if (flag) {
                 clearInterval(element.timeId);
-                if(fn){
+                if (fn) {
                     fn();
                 }
             }
@@ -72,12 +72,18 @@
         }, 20)
     }
 
-    document.getElementById("btn1").onclick = function(){
+    document.getElementById("btn1").onclick = function () {
         var json1 = {"width": 400, "height": 500, "left": 500, "top": 80, "opacity": 0.2};
         animate(document.getElementById("dv"), json1, function () {
-            animate(document.getElementById("dv"), {"width": 40, "height": 50, "left": 0, "top": 0, "opacity": 1, "zIndex": 1000});
+            animate(document.getElementById("dv"), {
+                "width": 40,
+                "height": 50,
+                "left": 0,
+                "top": 0,
+                "opacity": 1,
+                "zIndex": 1000
+            });
         });
-
     }
 
 </script>
