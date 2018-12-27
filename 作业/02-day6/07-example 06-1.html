@@ -65,19 +65,17 @@
     </ul>
 </div>
 <script>
-    function animate(element, target) {
+    function animate(element, target){
         clearInterval(element.timeId);
-        element.timeId = setInterval(function () {
+        element.timeId = setInterval(function(){
             var current = element.offsetLeft;
-            var step = (target - current) / 10;
-            step = step > 0 ? Math.ceil(step) : Math.floor(step);
+            var step = (target - current)/10;
+            step = step>0?Math.ceil(step):Math.floor(step);
             current += step;
-            element.style.left = current + "px";
-            if(target == current){
-                clearInterval(element.timeId);
-            }
+            element.style.left = current + "px"
         }, 20)
     }
+
     var cloud = document.getElementById("cloud");
     var list = document.getElementById("navBar").children;
     for(var i =0;i<list.length;i++){
@@ -85,17 +83,17 @@
         list[i].onclick = clickHandle;
         list[i].onmouseout = mouseoutHandle;
     }
-    function mouseoverHandle(){
+    function mouseoverHandle() {
         animate(cloud, this.offsetLeft);
     }
     var lastPosition = 0;
     function clickHandle(){
         lastPosition = this.offsetLeft;
     }
-
     function mouseoutHandle(){
         animate(cloud, lastPosition);
     }
+
 </script>
 </body>
 </html>
