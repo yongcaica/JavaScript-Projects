@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45ca14f3-f938-493d-a4ce-c194e94cfdb0" name="Default Changelist" comment="update">
-      <change afterPath="$PROJECT_DIR$/作业/02-day6/05-animation final version 11example3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/02-day6/06-example 04-1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/02-day6/07-example 06-1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/作业/02-day6/06-example 04.html" beforeDir="false" afterPath="$PROJECT_DIR$/作业/02-day6/06-example 04.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/作业/02-day6/07-example 06.html" beforeDir="false" afterPath="$PROJECT_DIR$/作业/02-day6/07-example 06.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/02-day6/08-exmaple 12.html" beforeDir="false" afterPath="$PROJECT_DIR$/作业/02-day6/08-exmaple 12.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,8 +18,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/作业/02-day6/08-exmaple 12.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+            <state relative-caret-position="713">
+              <caret line="99" column="40" selection-start-line="99" selection-start-column="40" selection-end-line="99" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -80,7 +75,6 @@
         <option value="$PROJECT_DIR$/作业/02-day5/03-Completed Sideshow4.html" />
         <option value="$PROJECT_DIR$/作业/02-day6/01-offset, scroll, client.html" />
         <option value="$PROJECT_DIR$/作业/02-day6/02-getScroll Function.html" />
-        <option value="$PROJECT_DIR$/作业/02-day6/08-exmaple 12.html" />
         <option value="$PROJECT_DIR$/作业/02-day6/09-exmaple 13.html" />
         <option value="$PROJECT_DIR$/作业/02-day6/10-example 15.html" />
         <option value="$PROJECT_DIR$/作业/02-day6/11-example 17.html" />
@@ -96,6 +90,7 @@
         <option value="$PROJECT_DIR$/作业/02-day6/06-example 04-1.html" />
         <option value="$PROJECT_DIR$/作业/02-day6/07-example 06.html" />
         <option value="$PROJECT_DIR$/作业/02-day6/07-example 06-1.html" />
+        <option value="$PROJECT_DIR$/作业/02-day6/08-exmaple 12.html" />
       </list>
     </option>
   </component>
@@ -226,12 +221,12 @@
       <workItem from="1545623936288" duration="7206000" />
       <workItem from="1545707776490" duration="5086000" />
       <workItem from="1545794018817" duration="4214000" />
-      <workItem from="1545880277755" duration="9756000" />
+      <workItem from="1545880277755" duration="12155000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="250347000" />
+    <option name="totallyTimeSpent" value="252746000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -602,8 +597,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/作业/02-day6/08-exmaple 12.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+        <state relative-caret-position="713">
+          <caret line="99" column="40" selection-start-line="99" selection-start-column="40" selection-end-line="99" selection-end-column="40" />
         </state>
       </provider>
     </entry>
