@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45ca14f3-f938-493d-a4ce-c194e94cfdb0" name="Default Changelist" comment="update">
+      <change afterPath="$PROJECT_DIR$/作业/02-day6/images2/08-example 12-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/作业/02-day6/08-exmaple 12.html" beforeDir="false" afterPath="$PROJECT_DIR$/作业/02-day6/08-exmaple 12.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -15,11 +17,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/作业/02-day6/08-exmaple 12.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="713">
-              <caret line="99" column="40" selection-start-line="99" selection-start-column="40" selection-end-line="99" selection-end-column="40" />
+            <state relative-caret-position="551">
+              <caret line="98" lean-forward="true" selection-start-line="98" selection-end-line="98" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/作业/02-day6/images2/08-example 12-1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="389">
+              <caret line="94" column="45" lean-forward="true" selection-start-line="94" selection-start-column="45" selection-end-line="94" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -40,7 +51,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/作业/02-day4/05-一闪一闪亮晶晶1.html" />
         <option value="$PROJECT_DIR$/作业/02-day4/06-美女时钟.html" />
         <option value="$PROJECT_DIR$/作业/02-day4/06-美女时钟1.html" />
         <option value="$PROJECT_DIR$/test.html" />
@@ -91,6 +101,7 @@
         <option value="$PROJECT_DIR$/作业/02-day6/07-example 06.html" />
         <option value="$PROJECT_DIR$/作业/02-day6/07-example 06-1.html" />
         <option value="$PROJECT_DIR$/作业/02-day6/08-exmaple 12.html" />
+        <option value="$PROJECT_DIR$/作业/02-day6/images2/08-example 12-1.html" />
       </list>
     </option>
   </component>
@@ -125,6 +136,13 @@
               <item name="JavaScript" type="462c0819:PsiDirectoryNode" />
               <item name="作业" type="462c0819:PsiDirectoryNode" />
               <item name="02-day6" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaScript" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaScript" type="462c0819:PsiDirectoryNode" />
+              <item name="作业" type="462c0819:PsiDirectoryNode" />
+              <item name="02-day6" type="462c0819:PsiDirectoryNode" />
+              <item name="images2" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -221,12 +239,12 @@
       <workItem from="1545623936288" duration="7206000" />
       <workItem from="1545707776490" duration="5086000" />
       <workItem from="1545794018817" duration="4214000" />
-      <workItem from="1545880277755" duration="12155000" />
+      <workItem from="1545880277755" duration="14085000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="252746000" />
+    <option name="totallyTimeSpent" value="254676000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -260,13 +278,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/作业/02-day4/05-一闪一闪亮晶晶1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="19" column="6" lean-forward="true" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/作业/02-day4/05-一闪一闪亮晶晶.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="362">
@@ -597,8 +608,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/作业/02-day6/08-exmaple 12.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="713">
-          <caret line="99" column="40" selection-start-line="99" selection-start-column="40" selection-end-line="99" selection-end-column="40" />
+        <state relative-caret-position="551">
+          <caret line="98" lean-forward="true" selection-start-line="98" selection-end-line="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业/02-day6/images2/08-example 12-1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="94" column="45" lean-forward="true" selection-start-line="94" selection-start-column="45" selection-end-line="94" selection-end-column="45" />
         </state>
       </provider>
     </entry>
