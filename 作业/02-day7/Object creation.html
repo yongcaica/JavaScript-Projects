@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var per1 = {
+        name: "yong",
+        age: 40,
+        eat: function(){
+            console.log("eat foods");
+        }
+    };
+
+    var per2 = new Object();
+    per2.name = "yong";
+    per2.age = 40;
+    per2.eat = function() {
+        console.log("i like to eat food");
+    };
+
+    function Person(name, age, sex) {
+        this.name = name;
+        this.age = age;
+        this.sex = sex;
+        this.eat = function(){
+            console.log("eat food");
+        };
+    }
+    var per3 = new Person("yong", 40, "male");
+
+</script>
+</body>
+</html>
