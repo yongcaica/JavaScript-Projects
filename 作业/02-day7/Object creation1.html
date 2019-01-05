@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var obj = {
+        name: "yong",
+        age: 30,
+        sex: "male",
+        eat: function(){
+            console.log("eat food");
+        }
+    };
+
+    var obj1 = new Object();
+    obj1.name = "yong";
+    obj1.age = 30;
+    obj1.sex = "male";
+    obj1.eat = function(){
+        console.log("eat food");
+    };
+
+    function Person(name, age, sex){
+        this.name = name;
+        this.age = age;
+        this.sex = sex;
+        this.eat = function(){
+            console.log("eat food");
+        }
+    };
+    var obj2 = new Person("yong", 30, "male");
+
+</script>
+</body>
+</html>
