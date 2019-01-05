@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45ca14f3-f938-493d-a4ce-c194e94cfdb0" name="Default Changelist" comment="update">
-      <change afterPath="$PROJECT_DIR$/作业/02-day7/Object creation1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/02-day7/Bubble sort1.html" beforeDir="false" afterPath="$PROJECT_DIR$/作业/02-day7/Bubble sort1.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,19 +16,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/作业/02-day7/Object creation1.html">
+        <entry file="file://$PROJECT_DIR$/作业/02-day7/Bubble sort1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="22" column="32" lean-forward="true" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/作业/02-day7/Object creation.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+            <state relative-caret-position="432">
+              <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -50,7 +40,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/作业/02-day5/03-完整轮播图.html" />
         <option value="$PROJECT_DIR$/作业/02-day5/01-完整轮播图.html" />
         <option value="$PROJECT_DIR$/作业/02-day5/10-左右焦点轮播图.html" />
         <option value="$PROJECT_DIR$/作业/02-day5/05-div渐变.html" />
@@ -101,6 +90,7 @@
         <option value="$PROJECT_DIR$/作业/02-day7/Object creation.html" />
         <option value="$PROJECT_DIR$/作业/02-day7/Bubble sort.html" />
         <option value="$PROJECT_DIR$/作业/02-day7/Object creation1.html" />
+        <option value="$PROJECT_DIR$/作业/02-day7/Bubble sort1.html" />
       </list>
     </option>
   </component>
@@ -244,12 +234,12 @@
       <workItem from="1546141996071" duration="596000" />
       <workItem from="1546486759017" duration="642000" />
       <workItem from="1546574418777" duration="2581000" />
-      <workItem from="1546656126927" duration="1152000" />
+      <workItem from="1546656126927" duration="1444000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="262533000" />
+    <option name="totallyTimeSpent" value="262825000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -283,13 +273,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/作业/02-day5/05-div渐变.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="486">
@@ -600,6 +583,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/作业/02-day7/Object creation1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="22" column="32" lean-forward="true" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/作业/02-day7/Object creation.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -607,10 +597,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/作业/02-day7/Object creation1.html">
+    <entry file="file://$PROJECT_DIR$/作业/02-day7/Bubble sort1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="22" column="32" lean-forward="true" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+        <state relative-caret-position="432">
+          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
         </state>
       </provider>
     </entry>
